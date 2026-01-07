@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/883ba9c28f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>NearUni - Finding A Home Away From Home</title>
+</head>
+<body>
+    <nav class="shadow-xl relative rounded z-10 top-0 sticky">
+        <div class="logo">
+            <a href="/">
+                <p class="text-amber-700">NearUni</p>
+            </a>
+        </div>
+
+        <div class="menu hidden sm:flex">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="apartments.html">Apartments</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="social hidden sm:flex space-x-3">
+            <li><a href="login.html">Login</a></li>
+            <li><a class="register bg-amber-700 " href="register.html">Register</a></li>
+        </div>
+
+        <div class="sm:hidden relative justify-center flex" id="icon">
+            <i class="open fa-solid fa-burger text-amber-700 text-xl cursor-pointer hover:text-black"></i>
+            <i class="close absolute z-10 fa-solid fa-x text-amber-700 text-xl cursor-pointer hover:text-black"></i>
+        </div>
+
+        <div id="menu" class="hidden sm:hidden transition absolute w-full h-70 flex items-center bg-white top-0 right-0">
+            <div class="w-full">
+                <ul class="text-md space-y-3 m-5">
+                    <li class="w-full h-10 bg-white shadow-md p-2 flex items-center transition delay-50 duration-300 ease-in-out hover:font-bold hover:text-amber-700"><a href="index.html">home</a></li>
+                    <li class="w-full h-10 bg-white shadow-md p-2 flex items-center transition delay-50 duration-300 ease-in-out hover:font-bold hover:text-amber-700"><a href="apartments.html">Apartments</a></li>
+                    <li class="w-full h-10 bg-white shadow-md p-2 flex items-center transition delay-50 duration-300 ease-in-out hover:font-bold hover:text-amber-700"><a href="">About Us</a></li>
+                    <li class="w-full h-10 bg-white shadow-md p-2 flex items-center transition delay-50 duration-300 ease-in-out hover:font-bold hover:text-amber-700"><a href="">Contact</a></li>
+                </ul>
+                <div class="social flex justify-center space-x-3">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="register bg-amber-700" href="register.html">Register</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="search space-x-3 mb-5 mt-5">
+           <input type="text" class="shadow-md p-5 w-60 sm:350" placeholder="Search by Location">
+           <button class="shadow-xl text-xl font-bold hover:bg-amber-700"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div class="Featured mt-5 mb-6 pl-6 pr-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4 ml-5 mr-5">
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="detail.html">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container bg-white w-full rounded-2xl shadow-md">
+                <a href="">
+                    <img class="w-full h-40 rounded-t-2xl" src="https://assets.amberstudent.com/inventories/141365/ef6c2aa6.jpg?w=600&fit=crop&q=70&auto=format&trim=auto" alt="">
+                    <div class="details pl-3 pt-2 pr-3">
+                        <p class="text-lg font-medium mb-2">Self Contain</p>
+                        <p class="text-sm">20, Avenue Street, Unilag</p>
+                        <div class="flex justify-between mt-3 mb-3 text-md">
+                            <p class="font-medium">₦250,000 / Year</p>
+                            <p><i class="fa-solid fa-star text-amber-700"></i> 4.8/5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <footer class="mt-5 p-6 w-full space-y-4 h-auto bg-amber-700 items-center text-center">
+        <div class="logof">
+            <p class="text-white">NearUni</p>
+        </div>
+        <div class="">
+            <ul class="flex space-x-3 text-white font-bold justify-center">
+                <li><a href="apartments.html">Apartments</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <p class="text-white">@copyright @2026</p>
+    </footer>
+
+</body>
+
+<script src="script.js"></script>
+</html>
