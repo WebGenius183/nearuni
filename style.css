@@ -102,7 +102,7 @@ nav{
     background-color: white;
 }
 
-.butt {
+.butt:hover {
     background-color: #bb4d00;
 }
 
@@ -145,6 +145,7 @@ nav{
     background-color: white;
     color: black;
 }
+
 
 
 
