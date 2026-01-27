@@ -102,11 +102,6 @@ nav{
     background-color: white;
 }
 
-.butt:hover{
-    transition: ease-in-out .5s;
-    color: white;
-}
-
 .box{
     border-radius: 10px;
     text-align: center;
@@ -146,4 +141,5 @@ nav{
     background-color: white;
     color: black;
 }
+
 
