@@ -102,6 +102,10 @@ nav{
     background-color: white;
 }
 
+.butt {
+    background-color: #bb4d00;
+}
+
 .box{
     border-radius: 10px;
     text-align: center;
@@ -141,5 +145,6 @@ nav{
     background-color: white;
     color: black;
 }
+
 
 
